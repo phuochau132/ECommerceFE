@@ -1,0 +1,130 @@
+:root {
+  --height-header: 52px;
+  --margin: 50px;
+}
+
+* {
+  font-family: "Quicksand", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+}
+
+.App {
+  text-align: center;
+}
+
+.slick-dots {
+  display: none !important;
+}
+
+.slick-arrow {
+  display: none !important;
+}
+
+path {
+  fill: black;
+}
+a {
+  text-decoration: none;
+}
+.title {
+  font-weight: 800;
+  text-align: center;
+  position: relative;
+}
+
+input {
+  outline: none;
+}
+.title-bottom {
+  position: absolute;
+  width: 100px;
+  height: 1px;
+  background-color: black;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.row-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.row-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.line {
+  display: block;
+  width: 100%;
+  border: 1px solid #e1e1e1;
+}
+.highlight {
+  font-weight: bold;
+  color: #a73340;
+}
+ul {
+  margin: 0;
+}
+.hidden {
+  display: none !important;
+}
+.show {
+  animation: all 0.3s ease;
+  display: flex !important;
+}
+
+.form_error {
+  font-weight: 500;
+  bottom: -35%;
+  left: 0;
+  color: #a73340;
+  background-color: transparent;
+}
+.error {
+  background-color: white !important;
+  border: 1px solid #a73340 !important;
+}
+.disabled {
+  opacity: 0.7;
+}
+p {
+  margin: 0;
+}
+
+@media only screen and (min-width: 1025px) {
+  .title {
+    margin-top: 50px;
+    font-size: 30px;
+  }
+  .title-bottom {
+    width: 200px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .title {
+    margin-top: 30px;
+    font-size: 22px;
+  }
+  .title-bottom {
+    width: 150px;
+  }
+}
+
+/* Styles for phones */
+@media only screen and (max-width: 767px) {
+  .title {
+    margin-top: 25px;
+    font-size: 20px;
+  }
+  .title-bottom {
+    width: 100px;
+  }
+}

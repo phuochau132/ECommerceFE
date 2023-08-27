@@ -1,0 +1,28 @@
+// .wrapper {
+//     position: fixed;
+//     bottom: 0;
+//     left: 0;
+// }
+.slide {
+    margin-top: var(--margin);
+    margin-bottom: var(--margin);
+    z-index: -1;
+    text-align: center;
+    font-family: 'Oswald' !important;
+    width: 100%;
+    font-size: 5.85vw;
+    height: auto !important;
+    color: black !important;
+    width: 100vw;
+    text-transform: uppercase;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-fill-color: hsl(0deg 0% 100%);
+}
+
+.span-title {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}

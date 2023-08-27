@@ -1,0 +1,66 @@
+.wrapper {
+  width: 100%;
+  padding: 20px;
+  position: relative;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+
+  span {
+    height: auto !important;
+    background-color: white !important;
+  }
+
+  img {
+    margin-right: 10px;
+    width: 20%;
+    overflow: hidden;
+  }
+
+  .count-price {
+    display: flex;
+    align-items: center;
+
+
+  }
+
+  .del-item {
+    top: 20px;
+    right: 20px;
+    width: auto !important;
+    display: inline;
+    cursor: pointer;
+    position: absolute;
+  }
+
+}
+
+.content {
+  flex: 1;
+
+  .name,
+  .color {
+    margin-bottom: 5px;
+  }
+
+  .name {
+    font-size: 17px;
+    font-weight: bold;
+  }
+
+  .price {
+    font-size: 16px !important;
+  }
+}
+
+h4,
+h5,
+p {
+  margin: 0;
+
+
+}
+
+.border-bottom {
+  border-bottom: 1px dotted #bcbcbc;
+}

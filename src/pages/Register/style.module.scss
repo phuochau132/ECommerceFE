@@ -1,0 +1,137 @@
+.wrapper {
+    margin-top: var(--height-header);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    width: 40%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    .content_title {
+        font-family: 'Oswald' !important;
+        text-transform: uppercase;
+        font-size: 123.1%;
+        line-height: 1.3;
+        margin: 0.6em 0;
+        font-weight: 600;
+        font-style: normal;
+        color: #212b36;
+    }
+
+    .content_form {
+        margin-top: 20px;
+        display: flex;
+        position: relative;
+
+        .form_error {
+            font-weight: 500;
+            bottom: -35%;
+            left: 0;
+            color: #a73340;
+            position: absolute;
+            background-color: transparent;
+
+        }
+    }
+
+    .form_sex {
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+
+    }
+}
+
+
+
+.content_input {
+    outline: none;
+    width: 100%;
+    height: 55px;
+    border: 1px solid transparent;
+    background: #ededed;
+    color: #272727;
+    padding: 0 20px;
+    font-weight: 500;
+    -webkit-appearance: none;
+    margin-top: 10px;
+}
+
+.btn_res {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.content_input:focus {
+    background: #fff;
+    border-color: #ededed;
+}
+
+.content_label {
+    text-align: left;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.content_radio {
+    color: black;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.content_label {
+    margin-right: 10px
+}
+
+.login_footer {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.span {
+    color: black;
+    margin-left: 5px;
+}
+
+.footer-right {
+    text-align: left;
+    margin-left: 20px;
+
+}
+
+.footer-link {
+    margin-top: 15px;
+}
+
+
+
+@media only screen and (min-width: 1025px) {
+    .content {
+        width: 40%;
+    }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .content {
+        width: 60%;
+    }
+}
+
+/* Styles for phones */
+@media only screen and (max-width: 767px) {
+    .content {
+        width: 80%;
+    }
+}

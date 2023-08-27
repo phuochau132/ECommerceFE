@@ -1,0 +1,35 @@
+.wrapper {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    width: 22%;
+    height: auto;
+    color: black;
+    margin-right: 20px;
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+.link {
+    width: 100%;
+    height: auto;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+.content {
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+.title {
+    margin-top: 15px;
+    font-weight: 600;
+}

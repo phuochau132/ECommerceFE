@@ -1,0 +1,85 @@
+.wrapper {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-extra {
+  width: 80%;
+  display: none;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+}
+.footer-extra .footer-extra-item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-content {
+  display: flex;
+  width: 95%;
+  justify-content: space-between;
+  height: auto;
+}
+.footer-content .items {
+  width: 22%;
+  height: 100%;
+  text-align: left;
+}
+.footer-content .items .link {
+  color: #272727;
+  text-decoration: none;
+  line-height: 20px;
+  font-size: 12px;
+  text-align: justify;
+}
+
+.item-h4 {
+  font-weight: 800;
+  text-align: left;
+  font-size: 13px;
+  letter-spacing: 0.02em;
+  position: relative;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+
+.item-p {
+  line-height: 20px;
+  font-size: 12px;
+  text-align: justify;
+}
+
+.footer-icon {
+  display: flex;
+  align-items: start;
+  width: 100%;
+  height: 20px;
+  float: left;
+}
+
+.icon-fb {
+  margin-right: 5px;
+}
+
+.footer-img {
+  width: 150px;
+  margin-top: 10px;
+  margin-left: -5px;
+}
+
+/* Styles for phones */
+@media only screen and (max-width: 767px) {
+  .footer-content {
+    display: none;
+  }
+  .footer-extra {
+    display: flex;
+  }
+}/*# sourceMappingURL=style.module.css.map */

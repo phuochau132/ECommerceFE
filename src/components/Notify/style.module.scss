@@ -1,0 +1,51 @@
+.content_notify {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  background-color: rgb(1, 102, 1);
+  width: 320px;
+  color: white;
+  padding: 0 10px;
+  position: relative;
+  border-radius: 6px;
+  animation: ani 1s;
+
+  .text {
+    padding-left: 20px;
+    margin-top: 10px;
+
+  }
+
+  .top {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 8px;
+    min-height: 100%;
+    background-color: black;
+    opacity: 0.3;
+  }
+
+  p {
+    font-size: 14px
+  }
+
+  ;
+}
+
+
+.hide {
+  display: none;
+}
+
+@keyframes ani {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

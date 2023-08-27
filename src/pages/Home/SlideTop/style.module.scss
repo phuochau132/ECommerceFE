@@ -1,0 +1,14 @@
+.slide {
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    text-align: center;
+    cursor: grab;
+}
+
+
+.img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}

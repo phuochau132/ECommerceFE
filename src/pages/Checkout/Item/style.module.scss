@@ -1,0 +1,95 @@
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: White;
+
+    .img-item {
+        width: 4.6em;
+        height: 4.6em;
+        border-radius: 5px;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        object-fit: cover;
+        position: relative;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+
+        span {
+            text-align: center;
+            width: 20px;
+            height: 20px;
+            line-height: 20px;
+            font-size: 0.85714em;
+            font-weight: 500;
+            white-space: nowrap;
+            border-radius: 100%;
+            background-color: rgba(153, 153, 153, 0.9);
+            color: #fff;
+            position: absolute;
+            right: -0.75em;
+            top: -0.75em;
+            z-index: 2;
+        }
+    }
+
+    .item-info {
+        // width: 40%;
+    }
+
+    .item-quan {
+        margin: 0 5px 0 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        input {
+            background: #fff;
+            font-weight: 500;
+            font-size: 15px;
+            height: 25px;
+            padding: 0;
+            text-align: center;
+            width: 35px;
+            border: 1px solid #f3f4f4;
+            border-left: none;
+            border-right: none;
+            border-radius: 0;
+            outline: none;
+        }
+
+        button {
+            font-weight: 500;
+            font-size: 14px;
+            height: 25px;
+            padding: 0;
+            text-align: center;
+            width: 25px;
+            border: 1px solid #f3f4f4;
+            border-radius: 0;
+            cursor: pointer;
+            background: #f3f4f4;
+        }
+    }
+
+    .item-price {
+        // width: 15%;
+    }
+
+    .item-total-price {
+        text-align: center;
+        // width: 25%;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 15px;
+        font-weight: bold;
+        color: #a73340;
+    }
+}
+
+.border-bottom {
+    border-bottom: 1px solid #f1f1f1;
+}
